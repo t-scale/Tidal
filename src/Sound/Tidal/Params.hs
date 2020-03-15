@@ -432,6 +432,10 @@ ringdf = pF "ringdf"
 distort :: Pattern Double -> ControlPattern
 distort = pF "distort"
 
+-- distordion
+distort :: Pattern Double -> ControlPattern
+distort = pF "distord"
+
 -- Spectral freeze
 freeze :: Pattern Double -> ControlPattern
 freeze = pF "freeze"
